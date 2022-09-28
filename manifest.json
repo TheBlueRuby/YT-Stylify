@@ -1,0 +1,21 @@
+{
+
+    "manifest_version": 2,
+    "name": "YouTube Restyler",
+    "version": "1.0",
+  
+    "description": "Makes like/subscribe buttons not circles & slightly rounds video thumbnails",
+  
+    "icons": {
+      "64": "icons/64px.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "css": ["css/restyler.css"]
+      }
+    ]
+  
+  }
+  

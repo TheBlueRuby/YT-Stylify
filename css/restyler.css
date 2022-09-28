@@ -1,0 +1,49 @@
+html {
+    --video-details-border-radius: 4px;
+    --yt-img-border-radius: 14px;
+}
+
+.yt-spec-button-shape-next--size-m {
+    border-radius: var(--video-details-border-radius);
+}
+
+.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-start {
+
+    border-radius: var(--video-details-border-radius) 0 0 var(--video-details-border-radius);
+
+}
+
+.yt-spec-button-shape-next--size-m.yt-spec-button-shape-next--segmented-end {
+    border-radius: 0 var(--video-details-border-radius) var(--video-details-border-radius) 0;
+}
+
+ytd-watch-metadata[modern-metapanel] #description.ytd-watch-metadata {
+
+    border-radius: var(--video-details-border-radius);
+    border-color: var(--yt-spec-badge-chip-background);
+    border-style: solid;
+    border-width:  1px;
+    
+    background: transparent;
+
+}
+
+ytd-thumbnail {
+    border-radius: var(--yt-img-border-radius);
+}
+
+.ytd-thumbnail {
+    border-radius: var(--yt-img-border-radius);
+}
+
+yt-img-shadow {
+    border-radius: var(--yt-img-border-radius);
+}
+
+.yt-img-shadow {
+    border-radius: var(--yt-img-border-radius);
+}
+
+ytd-thumbnail.ytd-rich-grid-media::before {
+    border-radius: var(--yt-img-border-radius);
+}
